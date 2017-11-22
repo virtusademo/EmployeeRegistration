@@ -28,7 +28,7 @@ public class EmployeeController {
 	@Autowired
 	private EmployeeService employeeService;
 
-	@RequestMapping(value = "/")
+	@RequestMapping(value = "/result")
 	public ModelAndView listEmployee(ModelAndView model) throws IOException {
 		List<Employee> listEmployee = employeeService.getAllEmployees();
 		model.addObject("listEmployee", listEmployee);
@@ -52,7 +52,7 @@ public class EmployeeController {
 		} else {
 			employeeService.updateEmployee(employee);
 		}
-		return new ModelAndView("redirect:result");
+		return new ModelAndView("redirect:/");
 	}
 
 	@RequestMapping(value = "/deleteEmployee", method = RequestMethod.GET)
