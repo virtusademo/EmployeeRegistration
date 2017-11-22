@@ -9,8 +9,7 @@
 <title>Employee Success Screen</title>
 </head>
 <body>
-	<h1> Successfully Registered, Thank you!!!</h1>
-<%--	<div align="center">
+	<div align="center">
 		<h1>Employee List</h1>
 		
 		<table border="1">
@@ -35,10 +34,10 @@
 				</tr>
 			</c:forEach>
 		</table>
-		<h4>
+<%--		<h4>
 			New Employee Register <a href="newEmployee">here</a>
 		</h4>
-	</div>
---%>
+--%>	</div>
+
 </body>
 </html>
