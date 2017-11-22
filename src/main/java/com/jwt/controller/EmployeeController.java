@@ -75,7 +75,7 @@ public class EmployeeController {
 	@RequestMapping(value = "/EmployeeList", method = RequestMethod.GET)
 	public ModelAndView listEmployees(ModelAndView model) {
 		List<Employee> listEmployee = employeeService.getAllEmployees();
-		model.addObject("employee", listEmployee);
+		model.addObject("listEmployee", listEmployee);
 		model.setViewName("list");
 		return model;
 	}
