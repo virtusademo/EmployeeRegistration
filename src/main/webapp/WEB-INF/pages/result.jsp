@@ -13,7 +13,8 @@
 		
 		
 		<h4>
-		Registered successfully.
+		Registered successfully. 
+		<a href="home.jsp">Home</a>
 		</h4>
 	</div>
 </body>
