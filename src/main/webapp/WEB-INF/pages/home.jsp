@@ -6,10 +6,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Employee Management Screen</title>
+<title>Employee Success Screen</title>
 </head>
 <body>
-	<div align="center">
+	<h1> Successfully Registered, Thank you!!!</h1>
+<%--	<div align="center">
 		<h1>Employee List</h1>
 		
 		<table border="1">
@@ -38,5 +39,6 @@
 			New Employee Register <a href="newEmployee">here</a>
 		</h4>
 	</div>
+--%>
 </body>
 </html>
