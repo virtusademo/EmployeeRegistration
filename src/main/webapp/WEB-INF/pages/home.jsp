@@ -36,7 +36,7 @@
 		</table> -->
 		<h4>
 			<a href="newEmployee">Register here</a><br/>
-			<a href="listEmployee">List Employees</a>
+			<a href="EmployeeList">List Employees</a>
 		</h4>
 	</div>
 </body>
