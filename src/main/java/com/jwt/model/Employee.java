@@ -55,20 +55,20 @@ public class Employee implements Serializable {
 		this.email = email;
 	}
 
-	public String getPlatform() {
-		return platform;
+	public String getAddress() {
+		return address;
 	}
 
-	public void setPlatform(String platform) {
-		this.platform = platform;
+	public void setAddress(String address) {
+		this.address = address;
 	}
 
-	public String getDescription() {
-		return description;
+	public String getTelephone() {
+		return telephone;
 	}
 
-	public void setDescription(String description) {
-		this.description = description;
+	public void setTelephone(String telephone) {
+		this.telephone = telephone;
 	}
 
 }
