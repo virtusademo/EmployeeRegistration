@@ -6,11 +6,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>New/Edit Contact</title>
+<title>Registration Screen</title>
 </head>
 <body>
     <div align="center">
-        <h1>New/Edit Employee</h1>
+        <h1>Registration Details</h1>
         <form:form action="saveEmployee" method="post" modelAttribute="employee">
         <table>
             <form:hidden path="id"/>
