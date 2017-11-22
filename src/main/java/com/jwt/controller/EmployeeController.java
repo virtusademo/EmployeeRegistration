@@ -73,8 +73,13 @@ public class EmployeeController {
 	}
 	
 	@RequestMapping(value = "/listEmployee", method = RequestMethod.GET)
-	public ModelAndView newContact(ModelAndView model) {
+	public ModelAndView listEmployees(ModelAndView model) {
 		model.setViewName("list");
+		return model;
+	}
+	@RequestMapping(value = "/movehome", method = RequestMethod.GET)
+	public ModelAndView moveHome(ModelAndView model) {
+		model.setViewName("home");
 		return model;
 	}
 
