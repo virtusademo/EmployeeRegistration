@@ -71,5 +71,11 @@ public class EmployeeController {
 
 		return model;
 	}
+	
+	@RequestMapping(value = "/listEmployee", method = RequestMethod.GET)
+	public ModelAndView newContact(ModelAndView model) {
+		model.setViewName("list");
+		return model;
+	}
 
 }
