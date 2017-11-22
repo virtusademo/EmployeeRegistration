@@ -52,7 +52,7 @@ public class EmployeeController {
 		} else {
 			employeeService.updateEmployee(employee);
 		}
-		return new ModelAndView("redirect:/");
+		return new ModelAndView("redirect:/Result.html");
 	}
 
 	@RequestMapping(value = "/deleteEmployee", method = RequestMethod.GET)
