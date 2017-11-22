@@ -44,7 +44,7 @@ public class EmployeeController {
 		return model;
 	}
 
-	@RequestMapping(value = "/saveEmployee", method = RequestMethod.POST)
+	@RequestMapping(value = "/Result.html", method = RequestMethod.POST)
 	public ModelAndView saveEmployee(@ModelAttribute Employee employee) {
 		if (employee.getId() == 0) { // if employee id is 0 then creating the
 			// employee other updating the employee
