@@ -72,14 +72,14 @@ public class EmployeeController {
 		return model;
 	}
 	
-	@RequestMapping(value = "/listEmployee", method = RequestMethod.GET)
+	@RequestMapping(value = "/EmployeeList", method = RequestMethod.GET)
 	public ModelAndView listEmployees(ModelAndView model) {
 		List<Employee> listEmployee = employeeService.getAllEmployees();
 		model.addObject("employee", listEmployee);
 		model.setViewName("list");
 		return model;
 	}
-	@RequestMapping(value = "/movehome", method = RequestMethod.GET)
+	@RequestMapping(value = "/movehome", method = RequestMethod.POST)
 	public ModelAndView moveHome(ModelAndView model) {
 		model.setViewName("redirect:/");
 		return model;
