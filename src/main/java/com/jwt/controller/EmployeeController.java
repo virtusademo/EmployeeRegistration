@@ -28,15 +28,15 @@ public class EmployeeController {
 	@Autowired
 	private EmployeeService employeeService;
 
-	@RequestMapping(value = "/result")
+	@RequestMapping(value = "/")
 	public ModelAndView listEmployee(ModelAndView model) throws IOException {
 		List<Employee> listEmployee = employeeService.getAllEmployees();
 		model.addObject("listEmployee", listEmployee);
-		model.setViewName("result");
+		model.setViewName("home");
 		return model;
 	}
 
-	@RequestMapping(value = "/result", method = RequestMethod.GET)
+	@RequestMapping(value = "/newEmployee", method = RequestMethod.GET)
 	public ModelAndView newContact(ModelAndView model) {
 		Employee employee = new Employee();
 		model.addObject("employee", employee);
@@ -44,7 +44,7 @@ public class EmployeeController {
 		return model;
 	}
 
-	@RequestMapping(value = "/result", method = RequestMethod.POST)
+	@RequestMapping(value = "/saveEmployee", method = RequestMethod.POST)
 	public ModelAndView saveEmployee(@ModelAttribute Employee employee) {
 		if (employee.getId() == 0) { // if employee id is 0 then creating the
 			// employee other updating the employee
@@ -52,7 +52,7 @@ public class EmployeeController {
 		} else {
 			employeeService.updateEmployee(employee);
 		}
-		return new ModelAndView("redirect:/result");
+		return new ModelAndView("redirect:/");
 	}
 
 	@RequestMapping(value = "/deleteEmployee", method = RequestMethod.GET)
