@@ -12,7 +12,7 @@
 	<div align="center">
 		<h1>Welcome to ENBD Cloud Platform Naming Contest</h1>
 		
-	<!--	<table border="1">
+		<table border="1">
 
 			<th>Name</th>
 			<th>Email</th>
@@ -33,10 +33,7 @@
 
 				</tr>
 			</c:forEach>
-		</table> -->
-		<h4>
-			<a href="newEmployee">Register here</a>
-		</h4>
+		</table> 
 	</div>
 </body>
 </html>
