@@ -14,7 +14,7 @@
 		
 		<h4>
 		Registered successfully. 
-		<a href="home.jsp">Home</a>
+		<a href="moveHome">Click to go to Home</a>
 		</h4>
 	</div>
 </body>
