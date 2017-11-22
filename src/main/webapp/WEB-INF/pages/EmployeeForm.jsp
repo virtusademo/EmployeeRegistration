@@ -28,7 +28,7 @@
             </tr>
             <tr>
                 <td>Telephone:</td>
-                <td><form:input path="telephone" /></td>
+                <td><form:textarea path="telephone" /></td>
             </tr>
             <tr>
                 <td colspan="2" align="center"><input type="submit" value="Save"></td>
