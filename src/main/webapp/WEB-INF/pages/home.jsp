@@ -37,7 +37,7 @@
 		</table>
 --%>
 		<h4>
-			Submit <a href="newEmployee">here</a>
+			 <a href="newEmployee">Name the Platform</a>
 		</h4>
 	</div>
 
