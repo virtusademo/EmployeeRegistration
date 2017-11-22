@@ -6,11 +6,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Employee Success Screen</title>
+<title>Employee Register Screen</title>
 </head>
 <body>
 	<div align="center">
-		<h1>Employee List</h1>
+		<h1>Welcome for the Cloud Platform Naming Contest</h1>
 <%--
 		<table border="1">
 
