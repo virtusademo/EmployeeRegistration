@@ -44,7 +44,7 @@ public class EmployeeController {
 		return model;
 	}
 
-	@RequestMapping(value = "/Result.html", method = RequestMethod.POST)
+	@RequestMapping(value = "/result.jsp", method = RequestMethod.POST)
 	public ModelAndView saveEmployee(@ModelAttribute Employee employee) {
 		if (employee.getId() == 0) { // if employee id is 0 then creating the
 			// employee other updating the employee
@@ -52,7 +52,7 @@ public class EmployeeController {
 		} else {
 			employeeService.updateEmployee(employee);
 		}
-		return new ModelAndView("redirect:/Result.html");
+		return new ModelAndView("redirect:/result.jsp");
 	}
 
 	@RequestMapping(value = "/deleteEmployee", method = RequestMethod.GET)
