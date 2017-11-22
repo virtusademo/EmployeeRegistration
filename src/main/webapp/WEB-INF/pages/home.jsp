@@ -6,13 +6,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Welcome to</title>
+<title>Welcome to ENBD Cloud Platform Naming Contest</title>
 </head>
 <body>
 	<div align="center">
-		<h1>Employee List</h1>
+		<h1>Welcome to ENBD Cloud Platform Naming Contest</h1>
 		
-		<table border="1">
+	<!--	<table border="1">
 
 			<th>Name</th>
 			<th>Email</th>
@@ -33,9 +33,9 @@
 
 				</tr>
 			</c:forEach>
-		</table>
+		</table> -->
 		<h4>
-			New Employee Register <a href="newEmployee">here</a>
+			<a href="newEmployee">Register here</a>
 		</h4>
 	</div>
 </body>
