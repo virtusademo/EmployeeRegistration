@@ -23,11 +23,11 @@
                 <td><form:input path="email" /></td>
             </tr>
             <tr>
-                <td>Address:</td>
+                <td>Name for the Platform:</td>
                 <td><form:input path="address" /></td>
             </tr>
             <tr>
-                <td>Telephone:</td>
+                <td>Descirption:</td>
                 <td><form:input path="telephone" /></td>
             </tr>
             <tr>
