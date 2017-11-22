@@ -16,10 +16,10 @@
 
 			<th>Name</th>
 			<th>Email</th>
-			<th>Address</th>
-			<th>Telephone</th>
+			<th>Name for the Platform</th>
+			<th>Description</th>
 			<th>Action</th>
-
+<%--
 			<c:forEach var="employee" items="${listEmployee}">
 				<tr>
 
@@ -33,11 +33,12 @@
 
 				</tr>
 			</c:forEach>
+--%>
 		</table>
-<%--		<h4>
-			New Employee Register <a href="newEmployee">here</a>
+		<h4>
+			Submit <a href="newEmployee">here</a>
 		</h4>
---%>	</div>
+	</div>
 
 </body>
 </html>
