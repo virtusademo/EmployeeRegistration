@@ -26,10 +26,10 @@ public class Employee implements Serializable {
 	private String email;
 
 	@Column
-	private String address;
+	private String platform;
 
 	@Column
-	private String telephone;
+	private String description;
 
 	public int getId() {
 		return id;
@@ -55,20 +55,20 @@ public class Employee implements Serializable {
 		this.email = email;
 	}
 
-	public String getAddress() {
-		return address;
+	public String getPlatform() {
+		return platform;
 	}
 
-	public void setAddress(String address) {
-		this.address = address;
+	public void setPlatform(String platform) {
+		this.platform = platform;
 	}
 
-	public String getTelephone() {
-		return telephone;
+	public String getDescription() {
+		return description;
 	}
 
-	public void setTelephone(String telephone) {
-		this.telephone = telephone;
+	public void setDescription(String description) {
+		this.description = description;
 	}
 
 }
