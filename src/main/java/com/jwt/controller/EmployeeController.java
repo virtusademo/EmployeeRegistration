@@ -32,7 +32,7 @@ public class EmployeeController {
 	public ModelAndView listEmployee(ModelAndView model) throws IOException {
 		List<Employee> listEmployee = employeeService.getAllEmployees();
 		model.addObject("listEmployee", listEmployee);
-		model.setViewName("home");
+		model.setViewName("result");
 		return model;
 	}
 
@@ -44,7 +44,7 @@ public class EmployeeController {
 		return model;
 	}
 
-	@RequestMapping(value = "/result.jsp", method = RequestMethod.POST)
+	@RequestMapping(value = "/", method = RequestMethod.POST)
 	public ModelAndView saveEmployee(@ModelAttribute Employee employee) {
 		if (employee.getId() == 0) { // if employee id is 0 then creating the
 			// employee other updating the employee
@@ -52,7 +52,7 @@ public class EmployeeController {
 		} else {
 			employeeService.updateEmployee(employee);
 		}
-		return new ModelAndView("redirect:/result.jsp");
+		return new ModelAndView("redirect:/");
 	}
 
 	@RequestMapping(value = "/deleteEmployee", method = RequestMethod.GET)
