@@ -19,7 +19,7 @@
 			<th>Name for the Platform</th>
 			<th>Description</th>
 			<th>Action</th>
-<%--
+
 			<c:forEach var="employee" items="${listEmployee}">
 				<tr>
 
@@ -33,7 +33,7 @@
 
 				</tr>
 			</c:forEach>
---%>
+
 		</table>
 		<h4>
 			Submit <a href="newEmployee">here</a>
