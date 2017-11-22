@@ -11,7 +11,7 @@
 <body>
 	<div align="center">
 		<h1>Employee List</h1>
-		
+<%--
 		<table border="1">
 
 			<th>Name</th>
@@ -35,6 +35,7 @@
 			</c:forEach>
 
 		</table>
+--%>
 		<h4>
 			Submit <a href="newEmployee">here</a>
 		</h4>
