@@ -82,7 +82,7 @@ public class EmployeeController {
 	@RequestMapping(value = "/movehome", method = RequestMethod.POST)
 	public ModelAndView moveHome(ModelAndView model) {
 		model.setViewName("redirect:/");
-		return model;
+		return new ModelAndView("redirect:/");
 	}
 
 }
