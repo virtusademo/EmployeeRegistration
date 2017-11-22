@@ -24,11 +24,11 @@
             </tr>
             <tr>
                 <td>Name for the Platform:</td>
-                <td><form:input path="address" /></td>
+                <td><form:input path="platform" /></td>
             </tr>
             <tr>
                 <td>Descirption:</td>
-                <td><form:input path="telephone" /></td>
+                <td><form:textarea path="description" /></td>
             </tr>
             <tr>
                 <td colspan="2" align="center"><input type="submit" value="Save"></td>
