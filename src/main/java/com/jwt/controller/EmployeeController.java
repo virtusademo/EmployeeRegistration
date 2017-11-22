@@ -81,7 +81,7 @@ public class EmployeeController {
 	}
 	@RequestMapping(value = "/movehome", method = RequestMethod.GET)
 	public ModelAndView moveHome(ModelAndView model) {
-		model.setViewName("/");
+		model.setViewName("redirect:/");
 		return model;
 	}
 
