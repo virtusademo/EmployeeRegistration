@@ -36,7 +36,7 @@ public class EmployeeController {
 		return model;
 	}
 
-	@RequestMapping(value = "/newEmployee", method = RequestMethod.GET)
+	@RequestMapping(value = "/result", method = RequestMethod.GET)
 	public ModelAndView newContact(ModelAndView model) {
 		Employee employee = new Employee();
 		model.addObject("employee", employee);
