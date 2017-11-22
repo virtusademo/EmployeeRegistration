@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Employee Management Screen</title>
+<title>Welcome to</title>
 </head>
 <body>
 	<div align="center">
