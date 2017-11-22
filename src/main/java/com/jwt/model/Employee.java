@@ -26,10 +26,10 @@ public class Employee implements Serializable {
 	private String email;
 
 	@Column
-	private String platform;
+	private String address;
 
 	@Column
-	private String description;
+	private String telephone;
 
 	public int getId() {
 		return id;
