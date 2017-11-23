@@ -17,8 +17,8 @@
 			<th>Name</th>
 			<th>Email</th>
 			<th>Address</th>
-			<th>Telephone</th>
-			<th>Action</th>
+			<th>Name for the Contest</th>
+			<th>Description</th>
 
 			<c:forEach var="employee" items="${listEmployee}">
 				<tr>
@@ -36,8 +36,10 @@
 		</table> -->
 		<h4>
 			<a href="newEmployee">Register here</a><br/>
+<%--			
 			<a href="EmployeeList">List Employees</a>
-		</h4>
+--%>	
+	</h4>
 	</div>
 </body>
 </html>
