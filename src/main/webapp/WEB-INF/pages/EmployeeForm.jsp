@@ -6,11 +6,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>New/Edit Contact</title>
+<title>Registration</title>
 </head>
 <body>
     <div align="center">
-        <h1>New/Edit Employee</h1>
+        <h1>Welcome to the Registration</h1>
         <form:form action="saveEmployee" method="post" modelAttribute="employee">
         <table>
             <form:hidden path="id"/>
@@ -23,11 +23,11 @@
                 <td><form:input path="email" /></td>
             </tr>
             <tr>
-                <td>Address:</td>
+                <td>Name for the Platform:</td>
                 <td><form:input path="address" /></td>
             </tr>
             <tr>
-                <td>Telephone:</td>
+                <td>Description:</td>
                 <td><form:textarea path="telephone" /></td>
             </tr>
             <tr>
