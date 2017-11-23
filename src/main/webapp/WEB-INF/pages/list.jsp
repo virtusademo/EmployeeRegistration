@@ -17,8 +17,8 @@
 			<th>Name</th>
 			<th>Email</th>
 			<th>Address</th>
-			<th>Telephone</th>
-			<th>Action</th>
+			<th>Name for the Contest</th>
+			<th>Description</th>
 
 			<c:forEach var="employee" items="${listEmployee}">
 				<tr>
