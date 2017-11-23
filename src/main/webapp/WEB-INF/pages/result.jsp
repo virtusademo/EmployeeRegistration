@@ -14,7 +14,9 @@
 		
 		<h4>
 		Registered successfully. <br/>
-		<a href="moveHome">Click to go to Home</a>
+<%--		<a href="moveHome">Click to go to Home</a>
+		
+--%>
 		</h4>
 	</div>
 </body>
