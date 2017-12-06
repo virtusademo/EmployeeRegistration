@@ -16,19 +16,19 @@
             <form:hidden path="id"/>
             <tr>
                 <td>Name:</td>
-                <td><form:input path="name" /></td>
+                <td><form:input path="name" required="required"/></td>
             </tr>
             <tr>
                 <td>Email:</td>
-                <td><form:input path="email" /></td>
+                <td><form:input path="email" required="required"/></td>
             </tr>
             <tr>
                 <td>Name for the Platform:</td>
-                <td><form:input path="address" /></td>
+                <td><form:input path="address" required="required"/></td>
             </tr>
             <tr>
                 <td>Description:</td>
-                <td><form:textarea path="telephone" /></td>
+                <td><form:textarea path="telephone" required="required"/></td>
             </tr>
             <tr>
                 <td colspan="2" align="center"><input type="submit" value="Save"></td>
