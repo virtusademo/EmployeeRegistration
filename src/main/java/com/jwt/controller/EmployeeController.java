@@ -28,15 +28,17 @@ public class EmployeeController {
 	@Autowired
 	private EmployeeService employeeService;
 
-	@RequestMapping(value = "/")
+	/*@RequestMapping(value = "/")
 	public ModelAndView listEmployee(ModelAndView model) throws IOException {
 		List<Employee> listEmployee = employeeService.getAllEmployees();
 		model.addObject("listEmployee", listEmployee);
 		model.setViewName("home");
 		return model;
 	}
-
 	@RequestMapping(value = "/newEmployee", method = RequestMethod.GET)
+	*/
+
+	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView newContact(ModelAndView model) {
 		Employee employee = new Employee();
 		model.addObject("employee", employee);
