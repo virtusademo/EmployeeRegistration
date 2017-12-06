@@ -37,8 +37,8 @@
 	</div>
 	
 	<br/>
-	<h4>
+	<!--<h4>
 		<a href="moveHome">Click to go to Home</a>
-		</h4>
+		</h4> -->
 </body>
 </html>
