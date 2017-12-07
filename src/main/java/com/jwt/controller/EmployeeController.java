@@ -53,7 +53,7 @@ public class EmployeeController {
 		String adddb=null;
 		boolean flag= false;
 		for(Employee emp : employeeList){
-    			if(add.equals(emp.getAddress())
+    			if(add.equals(emp.getAddress()))
 				flag=true;
 		}
 		if(flag=true)
