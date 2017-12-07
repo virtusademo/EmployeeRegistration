@@ -16,7 +16,7 @@
 
 			<th>Name</th>
 			<th>Email</th>
-			<th>Address</th>
+			<th>Platform</th>
 			<th>Name for the Contest</th>
 			<th>Description</th>
 
