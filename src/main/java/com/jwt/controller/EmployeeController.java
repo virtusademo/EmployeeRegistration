@@ -52,22 +52,21 @@ public class EmployeeController {
 		String add=employee.getAddress();
 		String adddb=null;
 		boolean flag= false;
-		for(Employee emp : listEmployee){
-    			if(add.equals(emp.getAddress()))
-				flag=true;
-		}
-		if(flag==true)
-			return new ModelAndView("error");	      
-		else
-		{
-			if (employee.getId() == 0) { // if employee id is 0 then creating the
-				// employee other updating the employee
-				employeeService.addEmployee(employee);
-			} else {
-				employeeService.updateEmployee(employee);
+		if (employee.getId() == 0) { // if employee id is 0 then creating the
+			// employee other updating the employee
+			for(Employee emp : listEmployee){
+				if(add.equals(emp.getAddress()))
+				{
+					flag=true;
+					return new ModelAndView("error");
+				}
 			}
-			return new ModelAndView("result");
+			employeeService.addEmployee(employee);
+		} else {
+			employeeService.updateEmployee(employee);
 		}
+		return new ModelAndView("result");
+		
 	}
 
 	@RequestMapping(value = "/deleteEmployee", method = RequestMethod.GET)
