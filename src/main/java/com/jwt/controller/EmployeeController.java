@@ -61,7 +61,7 @@ public class EmployeeController {
 	public ModelAndView deleteEmployee(HttpServletRequest request) {
 		int employeeId = Integer.parseInt(request.getParameter("id"));
 		employeeService.deleteEmployee(employeeId);
-		return new ModelAndView("redirect:/");
+		return new ModelAndView("result");
 	}
 
 	@RequestMapping(value = "/editEmployee", method = RequestMethod.GET)
