@@ -48,13 +48,26 @@ public class EmployeeController {
 
 	@RequestMapping(value = "/saveEmployee", method = RequestMethod.POST)
 	public ModelAndView saveEmployee(@ModelAttribute Employee employee) {
-		if (employee.getId() == 0) { // if employee id is 0 then creating the
-			// employee other updating the employee
-			employeeService.addEmployee(employee);
-		} else {
-			employeeService.updateEmployee(employee);
+		List<Employee> listEmployee = employeeService.getAllEmployees();
+		String add=employee.getAddress();
+		String adddb=null;
+		boolean flag= false;
+		for(Employee emp : employeeList){
+    			if(add.equals(emp.getAddress())
+				flag=true;
 		}
-		return new ModelAndView("result");
+		if(flag=true)
+			return new ModelAndView("error");	      
+		else
+		{
+			if (employee.getId() == 0) { // if employee id is 0 then creating the
+				// employee other updating the employee
+				employeeService.addEmployee(employee);
+			} else {
+				employeeService.updateEmployee(employee);
+			}
+			return new ModelAndView("result");
+		}
 	}
 
 	@RequestMapping(value = "/deleteEmployee", method = RequestMethod.GET)
