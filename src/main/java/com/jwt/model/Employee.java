@@ -25,7 +25,7 @@ public class Employee implements Serializable {
 	@Column
 	private String email;
 
-	@Column(name = "address", unique = true)
+	@Column(unique = true)
 	private String address;
 
 	@Column
