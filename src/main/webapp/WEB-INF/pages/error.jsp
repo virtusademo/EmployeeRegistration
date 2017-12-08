@@ -9,12 +9,11 @@
 <title>Welcome to ENBD Cloud Platform Naming Contest</title>
 </head>
 <body>
-	<div align="center">
-		
-		
+	
+	<div align="center">		
+		<br/><br/>
 		<h4>
 		This Platform name entry has been already given by your colleague, Please give one more try !!! <br/>
-
 		</h4>
 	</div>
 	<br/></br>
