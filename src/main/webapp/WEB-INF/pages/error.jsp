@@ -20,7 +20,7 @@
 	<br/></br>
 	<div align="center">
 	<h4>
-			<a href="moveHome">Click here go to Home</a><br/>
+			<a href="movehome">Click here go to Home</a><br/>
 	</h4>
 	</div>
 </body>
