@@ -73,7 +73,7 @@ public class EmployeeController {
 	public ModelAndView deleteEmployee(HttpServletRequest request) {
 		int employeeId = Integer.parseInt(request.getParameter("id"));
 		employeeService.deleteEmployee(employeeId);
-		return new ModelAndView("home");
+		return new ModelAndView("redirect:/EmployeeList");
 	}
 
 	@RequestMapping(value = "/editEmployee", method = RequestMethod.GET)
@@ -90,7 +90,7 @@ public class EmployeeController {
 	public ModelAndView listEmployees(ModelAndView model) {
 		List<Employee> listEmployee = employeeService.getAllEmployees();
 		model.addObject("listEmployee", listEmployee);
-		model.setViewName("redirect:/EmployeeList");
+		model.setViewName("list");
 		return model;
 	}
 	@RequestMapping(value = "/movehome")
