@@ -13,9 +13,15 @@
 		
 		
 		<h4>
-		Duplicate Platform name. <br/>
+		This Platform name entry has been already given by your colleague, Please give one more try !!! <br/>
 
 		</h4>
+	</div>
+	<br/></br>
+	<div align="center">
+	<h4>
+			<a href="newEmployee">Register here</a><br/>
+	</h4>
 	</div>
 </body>
 </html>
