@@ -90,7 +90,7 @@ public class EmployeeController {
 	public ModelAndView listEmployees(ModelAndView model) {
 		List<Employee> listEmployee = employeeService.getAllEmployees();
 		model.addObject("listEmployee", listEmployee);
-		model.setViewName("list");
+		model.setViewName("redirect:/EmployeeList");
 		return model;
 	}
 	@RequestMapping(value = "/movehome")
