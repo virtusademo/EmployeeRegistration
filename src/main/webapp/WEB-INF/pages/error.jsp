@@ -20,7 +20,7 @@
 	<br/></br>
 	<div align="center">
 	<h4>
-			<a href="newEmployee">Register here</a><br/>
+			<a href="moveHome">Click here go to Home</a><br/>
 	</h4>
 	</div>
 </body>
