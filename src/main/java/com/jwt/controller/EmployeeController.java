@@ -98,5 +98,12 @@ public class EmployeeController {
 		model.setViewName("redirect:/");
 		return new ModelAndView("redirect:/");
 	}
+	@RequestMapping(value = "/PlatformList", method = RequestMethod.GET)
+	public ModelAndView listEmployees(ModelAndView model) {
+		List<Employee> listEmployee = employeeService.getAllEmployees();
+		model.addObject("listEmployee", listEmployee);
+		model.setViewName("PlatformList");
+		return model;
+	}
 
 }
