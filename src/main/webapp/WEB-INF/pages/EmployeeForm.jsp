@@ -10,7 +10,7 @@
 </head>
 <body>
     <div align="center">
-        <h1>Welcome to the Virtusa Demo Registration</h1>
+        <h1>Welcome to the Virtusa Registration</h1>
         <form:form action="saveEmployee" method="post" modelAttribute="employee">
         <table>
             <form:hidden path="id"/>
